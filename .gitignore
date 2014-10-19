@@ -1,0 +1,7 @@
+*~
+*.pyc
+*.db
+temp/
+front-end/img/Originales/
+front-end/css/prefixed/
+
