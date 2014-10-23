@@ -4,9 +4,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
-    <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="css/font-icomoon.css">
-    <link rel="stylesheet" href="css/garzonfilms.css">
+    <link rel="stylesheet" href="css/vendor/foundation.min.css" />
+    <link rel="stylesheet" href="css/min/font-icomoon.min.css">
+    <link rel="stylesheet" href="css/min/garzonfilms.min.css">
     <script src="js/vendor/modernizr.js"></script>
     <!-- SEO and Facebook Atributos-->
     <meta name="description" content="Contact with Us by Email, Phone, or Social Networks" />
@@ -17,7 +17,7 @@
     <meta property="og:type" content="website" /> 
     <meta property="og:title" content="Contact Us" />
     <meta property="og:description" content="Contact with Garzon Films" />
-    <meta property="og:image" content="/img/home/home_01.jpg" />
+    <meta property="og:image" content="http://garzonfilms.com/img/home/home_01.jpg" />
     <!-- Fin de SEO y Facebook atributos-->
     <!-- Favicons y Directivas para AppChrome -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -47,21 +47,22 @@
 <div class="wrapper">
     <nav class="menu-padding">
       <div class="row text-center">
-          <div class="medium-2 columns"><a href="/"><img width="100px" src="img/logo/logonegro_200x133.png" alt="GarzonFilms Sitio Oficial"></a></div>
-          <div class="medium-7 columns">
+          <div class="medium-2 columns"><a href="/"><img width="100px" src="img/logo/logo_garzonfilms_200x128.png" alt="GarzonFilms Sitio Oficial"></a></div>
+          <div class="medium-6 columns">
               <div class="row">
                   <div class="medium-2 columns cl-effect-12 menu-padding"><a href="work.html">WORK</a></div>
                   <div class="medium-3 columns cl-effect-12 menu-padding"><a class="m-active" href="contacto.html">CONTACT</a></div>
                   <div class="medium-3 columns end cl-effect-12 menu-padding"><a href="about.html">ABOUT</a></div>
               </div>
           </div>
-          <div class="medium-3 columns">
+          <div class="medium-4 columns">
               <div class="row">
                   <div class="small-12 columns menu-padding">
-                      <a href="http://twitter.com/AndyGarzonA" target="_blank"><span class="icon-twitter medium"></span></a>
-                      <a href="http://youtube.com/AndyGVlogs" target="_blank"><span class="icon-youtube medium"></span></a>
-                      <a href="http://instagram.com/andygarzon" target="_blank"><span class="icon-instagram medium"></span></a>
-                      <a href="http://vimeo.com" target="_blank"><span class="icon-vimeo medium"></span></a>
+                    <a href="https://www.facebook.com/garzonfilms" title="Facebook GarzonFilms" target="_blank"><span class="icon-facebook medium"></span></a>
+                      <a href="http://twitter.com/AndyGarzonA" title="Twitter GarzonFilms" target="_blank"><span class="icon-twitter medium"></span></a>
+                      <a href="http://youtube.com/AndyGVlogs" title=" Canal Youtube de GarzonFilms" target="_blank"><span class="icon-youtube medium"></span></a>
+                      <a href="http://instagram.com/andygarzon" title="Instragram GarzonFilms" target="_blank"><span class="icon-instagram medium"></span></a>
+                      <a href="https://vimeo.com/garzonfilms" title="Vimeo GarzonFilms" target="_blank"><span class="icon-vimeo medium"></span></a>
                   </div>
               </div>
           </div>
@@ -91,9 +92,7 @@
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
+    <script src="js/codiguito.min.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -101,6 +100,8 @@
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
       ga('create', 'UA-50317801-1', 'auto');
+      ga('require', 'displayfeatures');
+      ga('require', 'linkid', 'linkid.js');
       ga('send', 'pageview');
 
     </script>

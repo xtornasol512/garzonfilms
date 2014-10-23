@@ -4,4 +4,5 @@
 temp/
 front-end/img/Originales/
 front-end/css/prefixed/
-
+node_modules/
+back-end/phyro/phyrosite/settings_local.py
