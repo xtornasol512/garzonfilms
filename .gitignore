@@ -2,6 +2,7 @@
 *.pyc
 *.db
 temp/
+front-end/otros.html
 front-end/img/Originales/
 front-end/css/prefixed/
 node_modules/
