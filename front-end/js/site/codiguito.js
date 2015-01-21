@@ -1,8 +1,5 @@
 $(document).foundation();
-if( location.href == "http://garzonfilms.com" || location.href == "http://www.garzonfilms.com" || location.href == "http://localhost:8080/")
-{
-    randomImg();
-}
+
 animationHover('#logo', 'bounceIn');
 function animationHover(element, animation){
   element = $(element);
