@@ -1,6 +1,7 @@
 *~
 *.pyc
 *.db
+venv/
 temp/
 front-end/otros.html
 front-end/img/Originales/
