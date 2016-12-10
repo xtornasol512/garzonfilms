@@ -1,6 +1,7 @@
 *~
 *.pyc
 *.db
+*.sqlite3
 venv/
 temp/
 front-end/otros.html
